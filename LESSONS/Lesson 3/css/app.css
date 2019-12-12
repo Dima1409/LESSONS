@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+h1{
+    color: red;
+}
+
+.green-text{
+    color: green;
+}
+
+#page-title{
+    font-size: 60px;
+}
+
+ul li {
+    font-weight: 700;
+}
+.text-block >*{
+    color: coral;
+}
+
+input + label {
+    color: purple;
+}
+
+input[type="text"] {
+    border-color: red;
+}
+
+a:hover {
+    text-decoration: none;
+}

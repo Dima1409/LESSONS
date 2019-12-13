@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Module5</title>
-    <link rel="stylesheet" href="css/app.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lesson-1</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h2 class="first-title">Наши услуги</h2>
+    <h2 class="second-title"><span>Новости</span></h2>
+    <h2 class="third-title"><span>letters</span></h2>
 
-<h2 class="first-title">Наши услуги</h2>
-
-<h2 class="second-title">
-    <span>Новости</span>
-</h2>
-
-<h3 class="third-title">
-    <span>Letters</span>
-</h3>
-
-<header>
-    <nav>
+    <!-- HEADER -->
+    <header>
+      <nav>
         <ul class="menu">
-            <li class="menu-item" > 
-                <a href="#" class="menu-link">О компании</a>
-            </li>
-            <li class="menu-item with-chid">
-                <a href="#" class="menu-link">Услуги</a>
-                <ul class="submenu">
-                    <li class="submenu-item">Перевозки</li>
-                    <li class="submenu-item">Ремонт</li>
-                    <li class="submenu-item">Покраска</li>
-                </ul>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Новости</a>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Контакты</a>
-            </li>
-            
+          <li class="menu-item">
+            <a href="#" class="menu-link">О компании</a>
+          </li>
+          <li class="menu-item with-child">
+            <a href="#" class="menu-link">Услуги</a>
+            <ul class="submenu">
+              <li class="submenu-item">
+                <a href="#" class="submenu-link">Перевозки</a>
+              </li>
+              <li class="submenu-item">
+                <a href="#" class="submenu-link">Ремонт</a>
+              </li>
+              <li class="submenu-item">
+                <a href="#" class="submenu-link">Покраска</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Новости</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Контакты</a>
+          </li>
         </ul>
-    </nav>
-    <main>
+      </nav>
+    </header>
 
-    </main>
-</header>
-    
-</body>
+    <main></main>
+
+    <section class="gallery">
+      <div class="container clearfix">
+        <div class="column">
+          <div class="gallery-item">
+            <img src="image/Rectangle1.png" alt="1" class="gallery-image" />
+            <button class="gallery-button">read more</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <img src="image/Rectangle2.png" alt="2" class="gallery-image" />
+            <button class="gallery-button">read more</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <img src="image/Rectangle1.png" alt="3" class="gallery-image" />
+            <button class="gallery-button">read more</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <img src="image/Rectangle4.png" alt="4" class="gallery-image" />
+            <button class="gallery-button">read more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
